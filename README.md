@@ -52,4 +52,10 @@ Data Gates is designed for high-volume, mixed-quality datasets such as:
 - Healthcare claims
 - Eligibility and enrollment feeds
 - Financial transactions
-- Any batch ingestion requiring auditable quality enforcement
+  - Any batch ingestion requiring auditable quality enforcement
+  - ## Run the demo
+
+```bash
+pip install pandas
+python examples/run_claims_gate.py
+
