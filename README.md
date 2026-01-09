@@ -74,6 +74,10 @@ Each gate runs as an isolated task, validating incoming data before it proceeds 
 downstream analytics layers. Validation logic remains fully decoupled from orchestration,
 allowing the same gates to be reused across batch, streaming, or ad-hoc workflows.
 
+
+
+
+
 ---
 
 ## Run the Demo
