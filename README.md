@@ -58,7 +58,7 @@ Data Gates is designed for high-volume, mixed-quality datasets such as:
 ```bash
 pip install pandas
 python examples/run_claims_gate.py
-
+---
 ## Airflow Example
 An example Airflow DAG is included under `airflow/dags/` to demonstrate how
 data quality gates can be orchestrated in a pipeline.
