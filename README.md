@@ -65,14 +65,6 @@ Data Gates is designed for high-volume, mixed-quality datasets such as:
 - Financial transactions
 - Any batch ingestion requiring auditable quality enforcement
 
----
-
-## Run the Demo
-
-```bash
-pip install pandas
-python examples/run_claims_gate.py
-
 ## Airflow Orchestration
 
 This project can be orchestrated using Apache Airflow to execute data quality gates
@@ -81,4 +73,14 @@ as part of a scheduled or event-driven pipeline.
 Each gate runs as an isolated task, validating incoming data before it proceeds to
 downstream analytics layers. Validation logic remains fully decoupled from orchestration,
 allowing the same gates to be reused across batch, streaming, or ad-hoc workflows.
+
+---
+
+## Run the Demo
+
+```bash
+pip install pandas
+python examples/run_claims_gate.py
+
+
 
